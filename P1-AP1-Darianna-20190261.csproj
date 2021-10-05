@@ -8,8 +8,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="UI\bus.jpg" />
+    <None Remove="UI\eli.jpg" />
+    <None Remove="UI\guar.jpg" />
+    <None Remove="UI\nue.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="DATA\" />
-    <Folder Include="UI\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -18,6 +24,13 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="UI\bus.jpg" />
+    <Resource Include="UI\eli.jpg" />
+    <Resource Include="UI\guar.jpg" />
+    <Resource Include="UI\nue.jpg" />
   </ItemGroup>
 
   <ItemGroup>
