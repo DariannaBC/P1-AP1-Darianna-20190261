@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using P1_AP1_Darianna_20190261.DAL;
 using P1_AP1_Darianna_20190261.Entidades;
 using Microsoft.EntityFrameworkCore;
+using System.Linq.Expressions;
 
 namespace P1_AP1_Darianna_20190261.BLL
 {

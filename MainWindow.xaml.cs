@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+
 namespace P1_AP1_Darianna_20190261
 {
     /// <summary>
@@ -23,6 +24,15 @@ namespace P1_AP1_Darianna_20190261
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+        }
+
+        private void MenuItem_Click_1(object sender, RoutedEventArgs e)
+        {
+            
         }
     }
 }
